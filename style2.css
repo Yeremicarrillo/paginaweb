@@ -1,0 +1,71 @@
+
+    body {
+    font-family: Arial, sans-serif;
+    background-color:#e9ebee;
+    margin: 0;
+    padding: 0;
+    }
+
+    header {
+    background-color: #4670c4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    }
+
+    main {
+    background-color: white;
+    width: 90%;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+
+    h2 {
+    color: #333;
+    }
+
+    label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    input[type="file"],
+    select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+
+    input[type="radio"] {
+    margin-right: 5px;
+    }
+
+    select[multiple] {
+    height: auto;
+    }
+
+    input[type="submit"] {
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    }
+
+    input[type="submit"]:hover {
+    background-color: #365899;
+    }
+
